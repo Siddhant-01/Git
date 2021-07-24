@@ -1,0 +1,60 @@
+Git is a piece of software that helps you keep track of your files in your daily life. Essentially, it is a distributed version control system that is free and open source. So, today I'm going to show you some simple commands that will come in handy and may save you from accidentally deleting code or losing track of an essential project. To begin, you must install git on your PC.
+
+
+
+
+
+Click Here To Download Git
+
+After the installation :
+
+You may launch Git by right-clicking in any folder and selecting "Git Bash Here" or "Git GUI Here". ( I'm going to explain you about command lines; the GUI is simple to grasp if you understand this. )
+
+Several command lines are needed to configure the user configuration after installation.
+
+git config --global user.name "[Firstname Lastname]"   When reviewing version history, it specifies the name that can be seen for credit.
+git config --global user.email "[Valid-Email]"   It assigns each history an own email address that is assigned from here.
+After setup you can use :
+git init   It creates a git repository in the folder. It's also the first command you'll use to get started with Git.
+
+
+If you're working on a project, use the above command to save it in the same folder.
+Our next command, which you can use whenever you want and as much as you want, is 
+git status   It shows the modified files or the file that is ready to commit (upload or save).
+ 
+
+Now next step would be adding these files to commit.
+git add [file name]   It adds the file in its current state. This command adds a single file to the folder, and you must additionally specify the file's name. So, my suggestion is to use the next command, which is
+git add -A   It will add all the files present in the folder that is to be commited.
+
+
+
+The following command will now be used to add the online github repository. You'll need a github account for this.
+You must create a new repository by clicking on the Create New Repository button in the top right corner of your account.
+
+
+
+
+After creating repository it will appear like this
+
+
+
+You have to copy same line that is selected in the above image and copy it in the Git bash terminal.
+git remote add origin [url]    The github repository is added. It can be used to publish code and save files as a backup here.
+
+
+
+In order to upload your files on the github you have to write the following command you have to commit the changes you have made to do that
+git commit -m ["Custom Message"]   It will save all the changes before upload and also you can provide a message that you want to display in history.
+
+
+git push origin master    It will push all your files on the github and there you can check it.
+
+
+
+
+
+By clicking the link below, you will get a git and github cheat sheet.
+Cheat Sheet
+
+The command lines I've presented are the most commonly used command lines in everyday life. Check out the sheet for further information.
